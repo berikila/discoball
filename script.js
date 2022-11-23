@@ -41,7 +41,7 @@ const environmentMap = cubeTextureLoader.load([
 
 
 const rgbeloader = new THREE.RGBELoader()
-rgbeloader.load('/static/textures/environmentMaps/4/light.hdr',(texture) =>{
+rgbeloader.load('/static/textures/environmentMaps/5/light.hdr',(texture) =>{
     texture.mapping = THREE.EquirectangularReflectionMapping;
     // scene.background = texture;
     scene.environment = environmentMap;
